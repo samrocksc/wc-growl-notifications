@@ -1,0 +1,29 @@
+
+h1 {
+  color: purple;
+}
+
+/* CSS files add styling rules to your content */
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.list-container {
+  position: fixed;
+  top: 125px;
+  right: 150px;
+  width: 200px;
+}
+.alert-list {
+  list-style: none;
+}
+.alert {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  z-index: inherit;
+  width: 200px;
+  background-color: pink;
+}
