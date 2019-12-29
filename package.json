@@ -18,8 +18,8 @@
     "build": "stencil build --docs",
     "start2": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
-    "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate",
+    "generate:docs": "stencil build --docs-readme",
     "start": "sd concurrent \"stencil build --dev --es5 --watch\" \"stencil-dev-server --httpPort 3000\" "
   },
   "devDependencies": {
